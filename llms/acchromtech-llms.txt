@@ -1,0 +1,61 @@
+# Acchromtech (Acchrom Tech)
+
+> Acchrom Tech — legally Huapu Instrument (Beijing) Technology Co., Ltd. — is a Beijing-based
+> analytical-instrument company founded in 2015 that develops, manufactures and services high-end
+> chromatographic separation products. It publishes no public API, SDK, developer portal or
+> machine-readable contract.
+
+Generated: 2026-09-06
+Method: generated
+Source: apis.yml (API Evangelist third-party profile) plus the company's own public website
+Note: This file was written by API Evangelist, not by Acchromtech. It is a summary of a publicly
+observable company surface, not a document the company serves at /llms.txt (that path returns 404 on
+www.acchrom-tech.com).
+
+## What the company sells
+
+- Liquid chromatography systems: HPLC and UHPLC
+- Triple-quadrupole liquid chromatograph–mass spectrometry (LC-MS/MS)
+- Specialised instruments: PAHs analyser, semi-preparative liquid chromatography, online SPE
+- Chromatographic columns and consumables: Alphasil, StarCore, SelectPrep, Marsil series
+- Chromloong CDS — a self-developed chromatography data system for chromatographic information
+  management, with distributed storage, standard network deployment and full-link audit
+
+Markets served: pharmaceutical, food safety, environmental protection, disease control, clinical
+testing, inspection and quarantine, petrochemical, and academic research laboratories.
+
+## API surface
+
+None found. As of 2026-09-06 there is no public API, no OpenAPI/AsyncAPI/GraphQL/gRPC/SOAP contract,
+no SDK or package on npm/PyPI, no MCP server, no A2A agent card, and no developer portal or API
+reference anywhere on the company's public surface. Chromloong is distributed as an end-user
+laboratory product; the "integration events" its marketing describes are chromatographic peak
+integration, not software integration.
+
+Probes run and what they returned:
+- https://www.acchrom-tech.com/openapi.json — 404
+- https://www.acchrom-tech.com/swagger.json — 404
+- https://www.acchrom-tech.com/api-docs — 404
+- https://www.acchrom-tech.com/llms.txt — 404
+- https://www.acchrom-tech.com/.well-known/agent-card.json — 404
+- https://www.acchrom-tech.com/.well-known/api-catalog — 404
+- api. / developer. / docs. / open. / service.acchrom-tech.com — do not resolve
+- npm registry search "acchrom" — 0 packages; PyPI "acchrom" — 404
+- GitHub organisation search "acchrom" / "acchrom-tech" / "chromloong" — no company org
+
+## Links
+
+- Website: https://www.acchrom-tech.com/?l=en-us
+- About: https://www.acchrom-tech.com/about.html?l=en-us
+- News: https://www.acchrom-tech.com/news.html?l=en-us
+- Application service: https://www.acchrom-tech.com/fuwu1.html?l=en-us
+- Download centre: https://www.acchrom-tech.com/fuwu3.html?l=en-us
+- Contact: https://www.acchrom-tech.com/lianxi.html?l=en-us
+- Chromloong CDS: https://www.acchrom-tech.com/goods6/231.html?l=en-us
+- Contact email: marketing@acchrom-tech.com
+
+## API Evangelist profile
+
+- apis.yml: https://raw.githubusercontent.com/api-evangelist/acchromtech/refs/heads/main/apis.yml
+- This is an independent third-party profile. API Evangelist does not operate or resell anything
+  Acchromtech sells.

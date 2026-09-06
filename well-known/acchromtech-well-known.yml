@@ -1,0 +1,60 @@
+generated: '2026-09-06'
+method: probed
+source: live GET of the named /.well-known/ paths on every host this record knows
+note: >-
+  Every named /.well-known/ path was probed on the company's live web host and every
+  one returned 404. The apex acchrom-tech.com resolves (A 47.95.253.28) but serves no
+  HTTPS listener — plain HTTP 301s to the www host — so its probes could not complete
+  and are recorded with status 0. No well-known document is served, so NO WellKnown or
+  SecurityTxt pointer is emitted in apis.yml: this file records a measured absence, not
+  a published surface. Acchromtech operates no API host, so there are no baseURL or
+  OpenAPI servers[] hosts to probe.
+hosts:
+- host: www.acchrom-tech.com
+  role: primary web host
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: acchrom-tech.com
+  role: apex (no HTTPS listener; HTTP 301 to www)
+  documents:
+  - path: /.well-known/security.txt
+    status: 0
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 0
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 0
+    file: null
+  - path: /.well-known/api-catalog
+    status: 0
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 0
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 0
+    file: null
+  - path: /.well-known/agent.json
+    status: 0
+    file: null
